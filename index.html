@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <meta name="author" content="Gabriel Ferreira Amorim">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <header>Formulário de Cadastro</header>
+        <form action="" class="form">
+            <div class="input-box">
+                <label for="">Nome completo</label>
+                <input type="text" placeholder="Digite o nome completo">
+            </div>
+
+            <div class="input-box">
+                <label for="">E-Mail</label>
+                <input type="text" placeholder="Digite o seu email principal">
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label for="">Número de celular</label>
+                    <input type="text" placeholder="Digite o número de celular">
+                </div>
+
+                <div class="input-box">
+                    <label for="">Data de Nascimento</label>
+                    <input type="date">
+                </div>
+            </div>
+
+            <div class="gender-box">
+                <h3>Gênero</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-masculino" name="genero">
+                        <label for="check-masculino">Masculino</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-feminino" name="genero">
+                        <label for="check-feminino">Feminino</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-nenhum" name="genero">
+                        <label for="check-nenhum">Desejo não falar</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="input-box endereco">
+                <label for="">Endereço</label>
+                <input type="text" placeholder="Digite o Endereço">
+
+                <div class="column">
+                    <div class="select-box">
+                        <select name="" id="">
+                            <option value="" hidden>
+                                Estado
+                            </option>
+                            <option value="">
+                                São Paulo
+                            </option>
+                            <option value="">
+                                Rio de Janeiro
+                            </option>
+                            <option value="">
+                                Bahia
+                            </option>
+                            <option value="">
+                                Acre
+                            </option>
+                        </select>
+                    </div>
+                </div>
+
+                <input type="text" placeholder="Digite o CEP">
+                <input type="text" placeholder="Digite a sua cidade">
+                <input type="text" placeholder="Digite a sua região">
+            </div>
+
+            <button>Enviar informações</button>
+        </form>
+    </section>
+</body>
+
+</html>
